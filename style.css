@@ -1,0 +1,340 @@
+#background{
+    background-image: url(coffee.jpg);
+    padding: 20px;
+    height: 100vh;
+    margin: 0%;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    color: azure;
+    letter-spacing: 3px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   
+    
+}
+#coffeehome{
+    color: azure;
+    align-items: center;
+    font-size: 90px;
+    font-family: Monospace'Garamond','Times New Roman','Georgia','Merriweather';
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    margin-top: 20;
+    
+}
+
+#Shop_button{
+    padding: 20px;
+    color: azure;
+    border: 1px solid azure;
+    width: 4rem;
+    height:3rem;
+    width: 8rem;
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+
+}
+
+#Shop_button:hover {
+    background-color: burlywood;
+}
+
+
+h3{
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Monospace'Garamond','Times New Roman','Georgia','Merriweather';
+}
+
+#shop_list{
+    display: flex;
+    padding: 20px;
+    margin: 20;
+    align-items: center;
+    justify-content: space-around;
+    padding:40px;
+}
+#espresso{
+    align-items: center;
+    border-radius: 40px;
+    border: 1px solid saddlebrown;
+    height: 320px;
+    width: 320px;
+    padding-top: 20px;
+    color: saddlebrown;
+    text-align: center;
+}
+
+#espresso:hover {
+    background-color: burlywood;
+    color: azure;
+}
+
+#espresso_img{
+    border-radius: 10px;
+}
+
+#cappuccino_img{
+    border-radius: 10px;
+    height: 155px;
+}
+
+#amercano_img{
+    border-radius: 10px;
+    height:155px ;
+}
+#Caffè_macchiato{
+    border-radius: 10px;
+    height: 155px;
+}
+
+@media (max-width: 768px) {
+    #shop_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .espresso {
+        width: 90%; 
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .espresso {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+
+    .espresso img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+/*---------------------------Preparation--------------------------*/
+
+#section3{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+#name{
+    text-align: center;
+    padding-top:40px ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: saddlebrown;
+}
+
+#prep_list{
+    display: flex;
+    padding: 10px;
+    margin: 20;
+    align-items: center;
+    justify-content: space-around;
+    padding:40px;
+    color: saddlebrown;
+}
+
+#preptech{
+    align-items: center;
+    border-radius:none;
+    height: 320px;
+    width: 320px;
+    padding-bottom: 6rem;
+    color: saddlebrown;
+    text-align: center;
+}
+
+#preptech_img{
+    height: 300px;
+    width: 300px;
+}
+
+#french_img{
+    height: 300px;
+    width: 300px;
+}
+
+#turkish_img{
+    height: 300px;
+    width: 300px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: azure;
+    
+}
+
+@media (max-width: 768px) {
+    #prep_list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .preptech {
+        width: 90%; 
+        max-width: 100%;
+    }
+    #section3{
+        background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+        background-size: cover;
+        height: 100vh;
+    
+    }
+
+    #pic_gallery{
+        flex-wrap: wrap;
+        flex-direction: column;
+
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .preptech {
+        font-size: 14px; 
+        padding: 10px; 
+    }
+
+    .preptech_img {
+        width: 100%;
+        height: auto;
+    }
+    #section3{
+        background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+        background-size: cover;
+        height: 100vh;
+    
+    }
+    #section5{
+        flex-wrap: wrap;
+        height: fit-content;
+
+    }
+    #item_list{
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-image: ;
+    }
+}
+/*------------------------- Section 4----------------------*/
+#section4{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    background-attachment: fixed;
+    height: 70vh;
+
+    
+}
+#section4_img{
+    padding-top: 7rem;
+}
+
+/*-----------------------------------Section 5-----------------------------------*/
+
+#section5{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+#item_list{
+    display: flex;
+    justify-content: space-around;
+}
+#coffee_packet{
+    align-items: center;
+    border-radius: 40px;
+    height: 320px;
+    width: 320px;
+    padding-top: 20px;
+    color: saddlebrown;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+/*-------------------------------------Section 6-------------------------------------------*/
+
+#section6{
+    background: cover;
+    height: 100vh;
+}
+#text{
+    color: saddlebrown;
+    align-items: center;
+    
+    
+}
+#pic_gallery{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+
+#contact{
+    padding-top: 35vh;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    height: 20vh;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#Shop_button_1{
+    padding: 20px;
+    color: azure;
+    border: 1px solid saddlebrown;
+    width: 4rem;
+    height:3rem;
+    width: 8rem;
+    display: flex;              
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center; 
+}
+
+#Shop_button_1:hover {
+    background-color: burlywood;
+}
+
+
+
+/*-------------------------------------------------------*/
+
+
+#End{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/footer-top-img-1.jpg);
+    height: 80vh;
+    color: azure;
+    padding-top: 15vh;
+}
+
+
+
+
+
+/*----------------------------responsivi code---------------------------*/
+
